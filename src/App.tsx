@@ -1,16 +1,16 @@
 import Header from './components/Header'
+import Toggle from './components/Header/Toggle'
 import './index.css'
 
 const App = () => {
   return (
     <>
       <Header />
-      <body>
-        
-        <main>
-
-        </main>
-      </body>
+      <main>
+        <Toggle defaultOnAll={false} />
+      </main>
+      <footer>
+      </footer>
     </>
   )
 }
