@@ -1,5 +1,5 @@
 import Header from './components/Header'
-import Toggle from './components/Header/Toggle'
+import Toggle from './components/Toggle'
 import './index.css'
 
 const App = () => {

@@ -1,5 +1,5 @@
 import { FC, useEffect, useState } from 'react';
-import { IToggle } from '../../../interfaces/IToggle';
+import { IToggle } from '../../interfaces/IToggle';
 import './style.css';
 
 const Toggle: FC<IToggle> = ({ defaultOnAll = true }) => {
