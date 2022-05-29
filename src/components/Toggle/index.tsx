@@ -1,4 +1,4 @@
-import { FC, useEffect, useState } from 'react';
+import { FC, useState } from 'react';
 import { IToggle } from '../../interfaces/IToggle';
 import './style.css';
 

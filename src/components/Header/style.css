@@ -23,7 +23,8 @@ h1 {
 @media only screen and (max-width: 600px) {
 
   header {
-    padding: 2.75rem 0px 2.65rem 3.75rem;
+    padding: 2.75rem 0px 1rem 0px;
+    justify-content: center;
   }
 
   h1 {
