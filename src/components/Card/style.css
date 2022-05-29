@@ -7,12 +7,28 @@
 .card {
   width: 550px;
   height: 90px;
-  padding: 0 0 0 26px;
-  opacity: 0.8;
+  padding: 0 0 0 26px; 
   border-radius: 6px;
   border: solid 1px #979797;
   background-color: #fff;
+  transition: transform 250ms;
 }
+.card:hover{
+  transform: translateY(-10px);
+}
+
+.card-content{
+  cursor: pointer;
+}
+
+.card-content:hover{
+  opacity: 0.4;
+}
+
+.card-selected:hover{
+  background-color: #FFFF;
+}
+
 
 .card-body {
   display: flex;
@@ -66,4 +82,5 @@
 
 .card-icon {
   margin: auto;
+  cursor: pointer;
 }
