@@ -3,7 +3,7 @@ import { IDropdownOption } from "../interfaces/IDropdown";
 export const items :IDropdownOption[]= [
   {
     id: 1,
-    value: 'react',
+    value: 'reactjs',
     label: 'React',
     url: 'https://firebasestorage.googleapis.com/v0/b/fir-reign-imgs.appspot.com/o/react-svgrepo-com-2.svg?alt=media&token=114ec4d0-02c0-4767-ae88-2a5995ba6337'
   },
