@@ -7,25 +7,27 @@
 .card {
   width: 550px;
   height: 90px;
-  padding: 0 0 0 26px; 
+  padding: 0 0 0 26px;
   border-radius: 6px;
   border: solid 1px #979797;
   background-color: #fff;
   transition: transform 250ms;
+  margin-bottom: 30px;
 }
-.card:hover{
+
+.card:hover {
   transform: translateY(-10px);
 }
 
-.card-content{
+.card-content {
   cursor: pointer;
 }
 
-.card-content:hover{
+.card-content:hover {
   opacity: 0.4;
 }
 
-.card-selected:hover{
+.card-selected:hover {
   background-color: #FFFF;
 }
 
@@ -61,6 +63,13 @@
   margin: auto;
 }
 
+.card-info {
+  height: 40px;
+  max-width: 482px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .card-info span {
   font-family: Roboto;
   font-size: 14px;
@@ -70,6 +79,7 @@
   line-height: 1.43;
   letter-spacing: 0.25px;
   color: #6b6b6b;
+  text-overflow: ellipsis;
 }
 
 .card-icon-container {
@@ -83,4 +93,16 @@
 .card-icon {
   margin: auto;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .card {
+    width: 90%;
+    padding: auto;
+    margin: auto;
+  }
+  .card-info {
+    max-width: 200px;
+  }
 }

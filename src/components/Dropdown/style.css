@@ -10,6 +10,8 @@
   margin: 63px 114px 1px 150px;
   border-radius: 4px;
   background-color: #fff;
+  position: relative;
+  z-index: 999999999;
 }
 
 .wrapper .header {
